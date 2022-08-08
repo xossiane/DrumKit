@@ -1,19 +1,25 @@
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Courier New", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #e744d2;
+  color: #000;
+  font-size: 20px;
+  -webkit-text-stroke: 1.5px white;
   margin-top: 60px;
 }
 
 #div {
-  color: tomato;
+  font-family: "Courier New", sans-serif;
+  color: 0000;
+  text-align: center;
+  -webkit-text-stroke: 1.5px white;
+  font-size: 15px;
 }
 
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./assets/background.jpg') bottom center;
   background-size: cover;
 }
 

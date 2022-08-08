@@ -76,6 +76,15 @@ audio.currentTime = 0; //não espera o áudio chegar até o final
 audio.play();
 key.classList.add('playing');
 
+function removeTransition(e){
+  key.classList.remove('playing');
+}
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+
+
 })
   
 </script>
